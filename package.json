@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/slushjs/gulp-install"
+    "url": "git://github.com/rotemlevi/gulp-install"
   },
   "keywords": [
     "gulpplugin",
@@ -19,12 +19,13 @@
   "author": "Joakim Carlstein <joakim@klei.se>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slushjs/gulp-install/issues"
+    "url": "https://github.com/rotemlevi/gulp-install/issues"
   },
-  "homepage": "https://github.com/slushjs/gulp-install",
+  "homepage": "https://github.com/rotemlevi/gulp-install",
   "dependencies": {
+    "ansi-colors": "^3.2.4",
     "dargs": "^5.1.0",
-    "gulp-util": "^3.0.7",
+    "fancy-log": "^1.3.3",
     "lodash.groupby": "^4.6.0",
     "p-queue": "^1.0.0",
     "through2": "^2.0.3",
